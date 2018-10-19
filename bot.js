@@ -51,7 +51,7 @@ if (message.content === "startspam" ) {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`spam ylan omm al flaaa/سباام يولد يلعن اومم الفله ${x}`)
+        message.channel.send(`سباام يولد يلعن اومم الفله ${x}`)
           .then(m => {
             count++;
           })
